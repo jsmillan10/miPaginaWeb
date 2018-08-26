@@ -1,6 +1,5 @@
 <!doctype html>
 <html class="no-js" lang="">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -8,6 +7,7 @@
   <title>Mi perfil</title>
   <!-- Place favicon.ico in the root directory -->
   <link href="css/hover.css" rel="stylesheet" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -22,11 +22,12 @@
   <div class="container-fluid fixed-top">
     <div class="row">
       <nav id="navbar_home" class="nav navbar-light">
-        <a id="nombre_nav" class="invisible col-6 navbar-brand hvr-underline-from-center" href="#contenedor_perfil">Sebastián Millán</a>
+        <a id="nombre_nav" class="invisible col-6 navbar-brand hvr-underline-from-center" href="#contenedor_perfil">Sebastián
+          Millán</a>
         <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_about_me">About Me</a>
         <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_timeline">Life Experience</a>
         <a class="nav-item nav-link hvr-underline-from-center" href="#">Technical Skills</a>
-        <a class="nav-item nav-link hvr-underline-from-center" href="#">Projects</a>
+        <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_projects">Projects</a>
         <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_contact">Contact</a>
       </nav>
     </div>
@@ -249,6 +250,73 @@
             <div class="timeline">
               To our bright future!!! :)
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Sección proyectos-->
+  <div id="contenedor_projects" class="container-fluid">
+    <div id="jumbo_projects" class="jumbotron">
+      <h2 id="subtitulo_projects">Projects</h2>
+      <div class="container">
+        <div data-am-fadeshow="next-prev-navigation">
+
+          <!-- Radio -->
+          <input type="radio" name="css-fadeshow" id="slide-1"/>
+          <input type="radio" name="css-fadeshow" id="slide-2"/>
+          <input type="radio" name="css-fadeshow" id="slide-3"/>
+
+          <!-- Slides -->
+          <div class="fs-slides">
+            <div id="imagen_musa" class="fs-slide">
+              <div class="info_projects">
+                <h1 class="titulos_carousel">MUSA</h1>
+                <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">Android
+                  application for contacting
+                  and purchasing musicians services</p>
+                <a href="#contenedor_projects" class="btn btn-lg btn-secondary">Learn more</a>
+              </div>
+            </div>
+            <div id="imagen_ubung" class="fs-slide">
+              <div class="info_projects">
+                <h1 class="titulos_carousel">Ubung</h1>
+                <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">Android
+                  application for contacting
+                  and purchasing musicians services</p>
+                <a href="#contenedor_projects" class="btn btn-lg btn-secondary">Learn more</a>
+              </div>
+            </div>
+            <div id="world_archery" class="fs-slide">
+              <div class="info_projects">
+                <h1 class="titulos_carousel">World Archery Colombia</h1>
+                <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">Android
+                  application for contacting
+                  and purchasing musicians services</p>
+                <a href="#contenedor_projects" class="btn btn-lg btn-secondary">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Navigation -->
+          <div class="fs-quick-nav">
+            <label class="fs-quick-btn" for="slide-1"></label>
+            <label class="fs-quick-btn" for="slide-2"></label>
+            <label class="fs-quick-btn" for="slide-3"></label>
+          </div>
+
+          <!-- Prev Navigation -->
+          <div class="fs-prev-nav">
+            <label class="fs-prev-btn" for="slide-1"></label>
+            <label class="fs-prev-btn" for="slide-2"></label>
+            <label class="fs-prev-btn" for="slide-3"></label>
+          </div>
+
+          <!-- Next Navigation -->
+          <div class="fs-next-nav">
+            <label class="fs-next-btn" for="slide-1"></label>
+            <label class="fs-next-btn" for="slide-2"></label>
+            <label class="fs-next-btn" for="slide-3"></label>
           </div>
         </div>
       </div>

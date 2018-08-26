@@ -55,7 +55,8 @@ a .nav-item {
   position: sticky;
   top: 0;
   width: 100%;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.3rem;
+  padding-top: 0.4rem;
 }
 
 
@@ -88,6 +89,26 @@ a .nav-item {
   column-gap: 1.25rem;
   orphans: 2;
   widows: 2;
+}
+
+.info_projects{
+  z-index: 2;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0,0,0,0.5);
+  margin-left: 50%;
+  width: 60%;
+}
+
+.titulos_carousel{
+  margin-top: 0;
+  margin-bottom: 0.8vw;
+  font-size: 5vw;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 /* Declaración de los Ids */
@@ -142,6 +163,7 @@ a .nav-item {
 }
 
 #jumbo_timeline{
+  margin-bottom: 0px;
   background-color: #ddd;
 }
 
@@ -151,6 +173,35 @@ a .nav-item {
 
 #contenedor_timeline{
   background: #ddd;
+}
+
+#contenedor_projects{
+  padding: 0px;
+}
+
+#jumbo_projects{
+  padding: 0px;
+  position: relative;
+  height: 730px;
+  z-index: 1;
+  background-color: #666666;
+}
+
+#imagen_project{
+  height: 100%;
+}
+
+#subtitulo_projects{
+  padding-top: 2rem;
+  color: white;
+}
+
+#imagen_musa{
+  background-image: url("./../img/musa.jpg");
+}
+
+#pre_navegacion{
+  z-index: 5;
 }
 
 #contenedor_contact{
