@@ -16,18 +16,18 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <div>
   <!--Sección Navbar-->
   <div class="container-fluid fixed-top">
     <div class="row">
       <nav id="navbar_home" class="nav navbar-light">
-        <a id="nombre_nav" class="invisible col-6 navbar-brand" href="#">Sebastián Millán</a>
-        <a class="nav-item nav-link hvr-underline-from-center" href="#">About Me</a>
-        <a class="nav-item nav-link hvr-underline-from-center" href="#">Life Experience</a>
+        <a id="nombre_nav" class="invisible col-6 navbar-brand hvr-underline-from-center" href="#contenedor_perfil">Sebastián Millán</a>
+        <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_about_me">About Me</a>
+        <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_timeline">Life Experience</a>
         <a class="nav-item nav-link hvr-underline-from-center" href="#">Technical Skills</a>
         <a class="nav-item nav-link hvr-underline-from-center" href="#">Projects</a>
-        <a class="nav-item nav-link hvr-underline-from-center" href="#">Contact</a>
+        <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_contact">Contact</a>
       </nav>
     </div>
   </div>
@@ -39,7 +39,7 @@
           <h1 class="titulo_grande">Juan Sebastián Millán L</h1>
           <p class="subtitulo">Systems and Computing Engineering <br>Entrepreneur and Innovator</p>
           <p>
-            <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+            <a href="#contenedor_about_me" class="btn btn-lg btn-secondary">Learn more</a>
           </p>
         </div>
         <img id="imagen_perfil" class="col-5 img-responsive" src="img/monserrate.jpeg" alt="Foto Inicio">
@@ -147,7 +147,7 @@
     </div>
   </div>
   <!--Sección Timeline-->
-  <div id="timeline_container" class="container-fluid">
+  <div id="contenedor_timeline" class="container-fluid">
     <div id="jumbo_timeline" class="jumbotron">
       <h2 id="subtitulo_timeline">Life Experience</h2>
       <div id="container">
@@ -255,14 +255,25 @@
     </div>
   </div>
   <!--Sección Contacto-->
-  <div id="contact_container" class="container-fluid">
+  <div id="contenedor_contact" class="container-fluid">
     <div id="jumbo_contact" class="jumbotron">
       <h2 id="h2_contact">Contact Me</h2>
+      <div class="row">
+        <img class="col-2" src="img/facebook.svg">
+        <img class="col-2" src="img/twitter.svg">
+        <img class="col-2" src="img/github.svg">
+        <img class="col-2" src="img/mail.svg">
+        <img class="col-2" src="img/instagram.svg">
+        <img class="col-2" src="img/linkedin.svg">
+      </div>
+    </div>
+    <div id="footer" class="row text-center">
+      <h6 class="col-12">© Juan Sebastián Millán L 2018. All rights reserved.</h6>
     </div>
   </div>
 </div>
 </body>
-
+<script src="js/smooth-scroll.polyfills.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -274,5 +285,7 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
-
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 </html>

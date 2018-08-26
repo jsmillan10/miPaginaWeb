@@ -55,6 +55,7 @@ a .nav-item {
   position: sticky;
   top: 0;
   width: 100%;
+  padding-bottom: 0.2rem;
 }
 
 
@@ -124,6 +125,7 @@ a .nav-item {
 }
 
 #contenedor_about_me{
+  padding-top: 2.5rem;
   background-color: white;
 }
 
@@ -147,18 +149,25 @@ a .nav-item {
   color: #222222;
 }
 
-#timeline_container{
+#contenedor_timeline{
   background: #ddd;
 }
 
-#contact_container{
+#contenedor_contact{
   background: linear-gradient(to right, #3d72b4, #525252);
 }
 
 #jumbo_contact{
+  padding-top: 1.5rem;
   background: linear-gradient(to right, #3d72b4, #525252);
 }
 
 #h2_contact{
+  color: white;
+  padding-bottom: 4rem;
+}
+
+#footer{
+  padding-bottom: 2rem;
   color: white;
 }
