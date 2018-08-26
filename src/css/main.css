@@ -200,6 +200,14 @@ a .nav-item {
   background-image: url("./../img/musa.jpg");
 }
 
+#imagen_ubung{
+  background-image: url("./../img/ubung.jpg");
+}
+
+#imagen_world_archery{
+  background-image: url("./../img/world_archery.jpg");
+}
+
 #pre_navegacion{
   z-index: 5;
 }
