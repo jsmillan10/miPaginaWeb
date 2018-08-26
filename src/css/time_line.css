@@ -165,20 +165,20 @@ body {
   top:-10px;
 }
 
-/*.bg-66 {*/
-  /*background: url(http://www.unido.org/uploads/tx_templavoila/history_07.jpg);*/
-  /*background-size:cover;*/
-/*}*/
+.bg-66 {
+  background: url("./../img/sebas_pequenio.JPG");
+  background-size:cover;
+}
 
-/*.bg-76 {*/
-  /*background: url(http://austria-forum.org/attach/Wissenssammlungen/Bibliothek/Wien_mit_den_Augen_des_Adlers/Wien_der_Moderne/UNO-City,_Austria_Center_Vienna/dkaiser_hav_25.jpg);*/
-  /*background-size:cover;*/
-/*}*/
+.bg-76 {
+  background: url("./../img/sebas_colegio.JPG");
+  background-size:cover;
+}
 
-/*.bg-86 {*/
-  /*background: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Power_Plant_(Tianjin,_China).jpg');*/
-  /*background-size:cover;*/
-/*}*/
+.bg-86 {
+  background: url("./../img/sebas_grande.JPG");
+  background-size:cover;
+}
 
 /*.bg-96 {*/
   /*background: url(http://www.oxfordbusinessgroup.com/sites/default/files/styles/chapter_header__710x233_/public/chapter_headers/ind1_2.png?itok=uxI_081i&c=af7608f5f35cf219c326e9b6e6a7d34c);*/

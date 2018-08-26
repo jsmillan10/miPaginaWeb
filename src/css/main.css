@@ -29,6 +29,7 @@ h5{
 }
 
 body{
+  background: linear-gradient(to right, #3d72b4, #525252);
   height: 100%;
 }
 
@@ -130,6 +131,7 @@ a .nav-item {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background: white;
+  margin-bottom: 0px;
 }
 
 #subitulos_aboutme{
@@ -143,4 +145,20 @@ a .nav-item {
 
 #subtitulo_timeline{
   color: #222222;
+}
+
+#timeline_container{
+  background: #ddd;
+}
+
+#contact_container{
+  background: linear-gradient(to right, #3d72b4, #525252);
+}
+
+#jumbo_contact{
+  background: linear-gradient(to right, #3d72b4, #525252);
+}
+
+#h2_contact{
+  color: white;
 }
