@@ -2,10 +2,30 @@ p {
   font-family: 'Nunito', sans-serif;
 }
 
-h1,h2,h3,h4,h5{
+h1{
   top: 250px;
   font-family: 'Nunito', sans-serif;
   color: #eeeeee;
+}
+
+h2{
+  font-weight: bolder;
+  font-family: 'Nunito', sans-serif;
+  color: #3d72b4;
+  text-align: center;
+
+}
+
+h3{
+  font-family: 'Noto Sans', sans-serif;
+  color: #525252;
+  text-align: center;
+}
+
+h5{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  color: #525252;
 }
 
 body{
@@ -41,7 +61,6 @@ a .nav-item {
   width: 100%;
   height: 100%;
   border-radius: 0px;
-  background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .nav-item {
@@ -49,6 +68,10 @@ a .nav-item {
   padding-right: 30px;
   padding-left: 30px;
   color: white;
+}
+
+.update{
+  color: white!important;
 }
 
 .text_about_me{
@@ -59,7 +82,17 @@ a .nav-item {
   color: #ffffff;
 }
 
+.card-columns{
+  column-gap: 1.25rem;
+  orphans: 2;
+  widows: 2;
+}
+
 /* Declaración de los Ids */
+#nombre_nav{
+  color: white;
+}
+
 #imagen_perfil {
   border: 5px solid #f6f8ff;
   border-radius: 15px;
@@ -70,14 +103,15 @@ a .nav-item {
 }
 
 #jumbo_titulo{
+  background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100%;
 }
 
 #contenedor_perfil{
   padding-right: 0px;
   padding-left: 0px;
-  position: absolute;
   height: 100%;
+  background-color: white;
 }
 
 #row_perfil{
@@ -89,6 +123,16 @@ a .nav-item {
 }
 
 #contenedor_about_me{
-  position: absolute;
-  height: 100%;
+  background-color: white;
+}
+
+#jumbo_aboutme{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: white;
+}
+
+#subitulos_aboutme{
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
 }

@@ -9,43 +9,268 @@
   <!-- Place favicon.ico in the root directory -->
   <link href="css/hover.css" rel="stylesheet" media="all">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/time_line.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-<div class="container-fluid fixed-top">
-  <div class="row">
-    <nav id="navbar_home" class="nav navbar-light">
-      <a id="nombre_nav" class="invisible col-5 navbar-brand" href="#">Sebastián Millán</a>
-      <a class="nav-item nav-link hvr-underline-from-center" href="#">About Me</a>
-      <a class="nav-item nav-link hvr-underline-from-center" href="#">Work Experience</a>
-      <a class="nav-item nav-link hvr-underline-from-center" href="#">Technical Skills</a>
-      <a class="nav-item nav-link hvr-underline-from-center" href="#">Projects</a>
-      <a class="nav-item nav-link hvr-underline-from-center" href="#">Hobbies</a>
-      <a class="nav-item nav-link hvr-underline-from-center" href="#">Contact</a>
-    </nav>
-  </div>
-</div>
-<div id="contenedor_perfil" class="container-fluid">
-  <div id="jumbo_titulo" class="jumbotron text-center">
-    <div id="row_perfil" class="row">
-      <div id="texto_perfil" class="col-7">
-        <h1 class="titulo_grande">Juan Sebastián Millán L</h1>
-        <p class="subtitulo">Systems and Computing Engineering <br>Entrepreneur and Innovator</p>
-        <p>
-          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-        </p>
-      </div>
-      <img id="imagen_perfil" class="col-5 img-responsive" src="img/monserrate.jpeg" alt="Foto Inicio">
+<div>
+  <!--Sección Navbar-->
+  <div class="container-fluid fixed-top">
+    <div class="row">
+      <nav id="navbar_home" class="nav navbar-light">
+        <a id="nombre_nav" class="invisible col-6 navbar-brand" href="#">Sebastián Millán</a>
+        <a class="nav-item nav-link hvr-underline-from-center" href="#">About Me</a>
+        <a class="nav-item nav-link hvr-underline-from-center" href="#">Work Experience</a>
+        <a class="nav-item nav-link hvr-underline-from-center" href="#">Technical Skills</a>
+        <a class="nav-item nav-link hvr-underline-from-center" href="#">Projects</a>
+        <a class="nav-item nav-link hvr-underline-from-center" href="#">Contact</a>
+      </nav>
     </div>
   </div>
-</div>
-<div id="contenedor_about_me" class="container-fluid">
-  <p class="text_about_me">
-    Hi
-  </p>
+  <!--Sección Perfil-->
+  <div id="contenedor_perfil" class="container-fluid">
+    <div id="jumbo_titulo" class="jumbotron text-center">
+      <div id="row_perfil" class="row">
+        <div id="texto_perfil" class="col-7">
+          <h1 class="titulo_grande">Juan Sebastián Millán L</h1>
+          <p class="subtitulo">Systems and Computing Engineering <br>Entrepreneur and Innovator</p>
+          <p>
+            <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+          </p>
+        </div>
+        <img id="imagen_perfil" class="col-5 img-responsive" src="img/monserrate.jpeg" alt="Foto Inicio">
+      </div>
+    </div>
+  </div>
+  <!--Sección About me-->
+  <div id="contenedor_about_me" class="container-fluid">
+    <div id="jumbo_aboutme" class="jumbotron">
+      <h2>About Me</h2>
+      <div id="subitulos_aboutme" class="row">
+        <h3 class="col-4">My Life</h3>
+        <h3 class="col-4">My Education</h3>
+        <h3 class="col-4">My Hobbies</h3>
+      </div>
+      <div class="card-columns">
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h5>Childhood</h5>
+          </div>
+          <img class="card-img-top" src="img/bucaramanga.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">I was born in Bucaramanga city and I lived there 11 years with all my family
+              sorrounding me and learning from them all the time.</p>
+          </div>
+        </div>
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h5>Adolescence</h5>
+          </div>
+          <img class="card-img-top" src="img/bogota.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">When I was 12 years, I went to Bogotá with my parents and my brother to continue
+              my studies and learn how is the life in the capital city.</p>
+          </div>
+        </div>
+        <div class="card text-center text-white bg-secondary p-3">
+          <p class="card-text">I'm working to explore the feeling of been in another culture outside of my country.</p>
+          <p class="card-text">
+            <small class="text-muted update">Maybe France or Switzerland</small>
+          </p>
+        </div>
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h5>Primary</h5>
+          </div>
+          <img class="card-img-top" src="img/comfenalco.jpg" alt="Colgio primario">
+          <div class="card-body">
+            <p class="card-text">I make my primary education in Comfenalco school in Bucaramanga. There I start to
+              understand
+              the importance of studying and been an applied person.</p>
+          </div>
+        </div>
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h5>High School</h5>
+          </div>
+          <img class="card-img-top" src="img/hontanar.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">I make all my high school at Gimnasio el Hontanar. In this college I start to feel what
+              is to have
+              friends, the importance of working and being respectful with others</p>
+          </div>
+        </div>
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h5>Undergraduate</h5>
+          </div>
+          <img class="card-img-top" src="img/andes.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Nowadays, I'm a student at Universidad de los Andes. Here I have understand that
+              everything is possible
+              with effort and willpower. Here I also find out that there are no limits for my goals but the road is
+              neither easy nor impossible.</p>
+          </div>
+        </div>
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h5>Sports</h5>
+          </div>
+          <img class="card-img-top" src="img/sports.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">I love to play and practice tennis and soccer since I was a child at school.
+              I also enjoy a lot dancing, going to the gym and making exercise in general.</p>
+          </div>
+        </div>
+        <div class="card text-center text-white bg-info p-3">
+          <p class="card-text">I also enjoy traveling around the world, reading, laughing, hanging out with my friends
+            and family, and smiling as far as I can.</p>
+          <p class="card-text">
+            <small class="text-muted update">Happiness is the most important thing in my life.</small>
+          </p>
+        </div>
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h5>Music</h5>
+          </div>
+          <img class="card-img-top" src="img/piano.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">I'm a music lover. I enjoy to listen almost every genre,
+              go to concerts of my favorite artists and playing piano whenever I can.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Sección Timeline-->
+  <div id="container">
+    <div id="thumbs">
+      <div class="history-block bg-66">
+        <div class="cover"></div>
+        <div class="year">1966 - 1976</div>
+        <div class="title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam
+        </div>
+        <div class="timeline">
+          <ul>
+            <li><a href="" class="timelineYear">1966</a></li>
+            <li><a href="" class="timelineYear">1967</a></li>
+            <li><a href="" class="timelineYear">1968</a></li>
+            <li><a href="" class="timelineYear">1969</a></li>
+            <li><a href="" class="timelineYear">1970</a></li>
+            <li><a href="" class="timelineYear">1971</a></li>
+            <li><a href="" class="timelineYear">1972</a></li>
+            <li><a href="" class="timelineYear">1973</a></li>
+            <li><a href="" class="timelineYear">1974</a></li>
+            <li><a href="" class="timelineYear">1975</a></li>
+            <li><a href="" class="timelineYear">1976</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="history-block bg-76">
+        <div class="cover"></div>
+        <div class="year">1976 - 1986</div>
+        <div class="title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam
+        </div>
+        <div class="timeline">
+          <ul>
+            <li><a href="" class="timelineYear">1976</a></li>
+            <li><a href="" class="timelineYear">1977</a></li>
+            <li><a href="" class="timelineYear">1978</a></li>
+            <li><a href="" class="timelineYear">1979</a></li>
+            <li><a href="" class="timelineYear">1980</a></li>
+            <li><a href="" class="timelineYear">1981</a></li>
+            <li><a href="" class="timelineYear">1982</a></li>
+            <li><a href="" class="timelineYear">1983</a></li>
+            <li><a href="" class="timelineYear">1984</a></li>
+            <li><a href="" class="timelineYear">1985</a></li>
+            <li><a href="" class="timelineYear">1986</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="history-block bg-86">
+        <div class="cover"></div>
+        <div class="year">1986 - 1996</div>
+        <div class="title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam
+        </div>
+        <div class="timeline">
+          <ul>
+            <li><a href="" class="timelineYear">1986</a></li>
+            <li><a href="" class="timelineYear">1987</a></li>
+            <li><a href="" class="timelineYear">1988</a></li>
+            <li><a href="" class="timelineYear">1989</a></li>
+            <li><a href="" class="timelineYear">1990</a></li>
+            <li><a href="" class="timelineYear">1991</a></li>
+            <li><a href="" class="timelineYear">1992</a></li>
+            <li><a href="" class="timelineYear">1993</a></li>
+            <li><a href="" class="timelineYear">1994</a></li>
+            <li><a href="" class="timelineYear">1995</a></li>
+            <li><a href="" class="timelineYear">1996</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="history-block bg-96">
+        <div class="cover"></div>
+        <div class="year">1996 - 2006</div>
+        <div class="title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam
+        </div>
+        <div class="timeline">
+          <ul>
+            <li><a href="" class="timelineYear">1996</a></li>
+            <li><a href="" class="timelineYear">1997</a></li>
+            <li><a href="" class="timelineYear">1998</a></li>
+            <li><a href="" class="timelineYear">1999</a></li>
+            <li><a href="" class="timelineYear">2000</a></li>
+            <li><a href="" class="timelineYear">2001</a></li>
+            <li><a href="" class="timelineYear">2002</a></li>
+            <li><a href="" class="timelineYear">2003</a></li>
+            <li><a href="" class="timelineYear">2004</a></li>
+            <li><a href="" class="timelineYear">2005</a></li>
+            <li><a href="" class="timelineYear">2006</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="history-block bg-06">
+        <div class="cover"></div>
+        <div class="year">2006-2016</div>
+        <div class="title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam
+        </div>
+        <div class="timeline">
+          <ul>
+            <li><a href="" class="timelineYear">2006</a></li>
+            <li><a href="" class="timelineYear">2007</a></li>
+            <li><a href="" class="timelineYear">2008</a></li>
+            <li><a href="" class="timelineYear">2009</a></li>
+            <li><a href="" class="timelineYear">2010</a></li>
+            <li><a href="" class="timelineYear">2011</a></li>
+            <li><a href="" class="timelineYear">2012</a></li>
+            <li><a href="" class="timelineYear">2013</a></li>
+            <li><a href="" class="timelineYear">2014</a></li>
+            <li><a href="" class="timelineYear">2015</a></li>
+            <li><a href="" class="timelineYear">2016</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="history-block bg-16">
+        <div class="cover"></div>
+        <div class="year">FUTURE</div>
+        <div class="title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam
+        </div>
+        <div class="timeline">
+          To our bright future!!! :)
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 
