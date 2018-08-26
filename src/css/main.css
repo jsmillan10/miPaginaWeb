@@ -208,6 +208,10 @@ a .nav-item {
   background-image: url("./../img/world_archery.jpg");
 }
 
+#imagen_yale{
+  background-image: url("./../img/yale.jpg");
+}
+
 #pre_navegacion{
   z-index: 5;
 }
