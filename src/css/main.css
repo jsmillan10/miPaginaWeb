@@ -136,3 +136,11 @@ a .nav-item {
   padding-top: 2.5rem;
   padding-bottom: 1rem;
 }
+
+#jumbo_timeline{
+  background-color: #ddd;
+}
+
+#subtitulo_timeline{
+  color: #222222;
+}
