@@ -180,15 +180,15 @@ body {
   background-size:cover;
 }
 
-/*.bg-96 {*/
-  /*background: url(http://www.oxfordbusinessgroup.com/sites/default/files/styles/chapter_header__710x233_/public/chapter_headers/ind1_2.png?itok=uxI_081i&c=af7608f5f35cf219c326e9b6e6a7d34c);*/
-  /*background-size:cover;*/
-/*}*/
+.bg-96 {
+  background: url("./../img/sebas_u.jpg");
+  background-size:cover;
+}
 
-/*.bg-06 {*/
-  /*background: url(http://www.3adi.org/tl_files/3ADIDocuments/Pictures/Greenshot_2014-01-08_18-32-54.jpg);*/
-  /*background-size:cover;*/
-/*}*/
+.bg-16 {
+  background: url("./../img/sebas_formal.jpg");
+  background-size:cover;
+}
 
 /*.bg-16 {*/
   /*background: url(https://i.dailymail.co.uk/i/pix/2012/07/23/article-0-142DF918000005DC-387_468x665.jpg);*/

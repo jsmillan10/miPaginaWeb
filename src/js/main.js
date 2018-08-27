@@ -50,16 +50,26 @@ $(function() {
   });
 });
 
-// var sys = require('sys'),
-//   fs = require('fs'),
-//   compiler = require('./../../src/scssCompiler');
-//
-// fs.readFile("../src/css/project_carousel.scss" + '/blog.scss', function(err, scssFile) {
-//   compiler.compile(scssFile.toString(), function(err, css) {
-//     if(err) {
-//       sys.puts(sys.inspect(err));
-//     } else {
-//       sys.puts(css);
-//     }
-//   });
-// });
+"use strict";
+$.getJSON("json/skills.json", function (data) {
+  $("#skillsList").append(data.map(function (obj) {
+    var titulo = $("<h3>")
+      .addClass("SkillTitle")
+      .text(obj.name);
+    var barra = $("<div>")
+      .addClass("progress-bar")
+      .attr("id", obj.name)
+      .attr("role", "progressbar")
+      .attr("aria-valuemin", "0")
+      .attr("aria-valuemax", "100")
+      .attr("aria-valuenow", obj.skillLevel)
+      .text(obj.skillLevel + "%")
+      .css("width", obj.skillLevel + "%");
+    var progress = $("<div>")
+      .addClass("progress")
+      .append(barra);
+    return $("<div>")
+      .append(titulo)
+      .append(progress);
+  }));
+});
