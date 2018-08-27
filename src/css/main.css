@@ -247,6 +247,7 @@ a .nav-item {
 
 #jumbo_contact{
   padding-top: 1.5rem;
+  padding-bottom: 1rem;
   background: linear-gradient(to right, #3d72b4, #525252);
 }
 

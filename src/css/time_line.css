@@ -87,6 +87,7 @@ body {
   bottom: 80px;
   font-size: 20px;
   margin: 20px;
+  width: 25%;
   transition: display 0.8s;
 }
 

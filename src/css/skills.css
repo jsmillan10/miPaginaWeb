@@ -100,13 +100,27 @@
   border-color: #ed687c;
 }
 .progress.pink .progress-left .progress-bar{
-  animation: loading-4 0.4s linear forwards 1.8s;
+  animation: loading-4 0.8s linear forwards 1.8s;
 }
 .progress.green .progress-bar{
   border-color: #1abc9c;
 }
 .progress.green .progress-left .progress-bar{
   animation: loading-5 1.2s linear forwards 1.8s;
+}
+
+.progress.grey .progress-bar{
+  border-color: #666666;
+}
+.progress.grey .progress-left .progress-bar{
+  animation: loading-6 0.4s linear forwards 1.8s;
+}
+
+.progress.purple .progress-bar{
+  border-color: #a700af;
+}
+.progress.purple .progress-left .progress-bar{
+  animation: loading-6 0.4s linear forwards 1.8s;
 }
 @keyframes loading-1{
   0%{
@@ -156,6 +170,16 @@
   100%{
     -webkit-transform: rotate(126deg);
     transform: rotate(126deg);
+  }
+}
+@keyframes loading-6{
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @media only screen and (max-width: 990px){
