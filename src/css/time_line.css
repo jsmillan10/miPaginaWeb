@@ -74,11 +74,13 @@ body {
   position: absolute;
   display: block;
   width: 260px;
+  height: 380px;
   top: 60px;
   font-size: 15px;
   margin: 30px;
   white-space: normal;
   transition: width 0.2s;
+  overflow: hidden;
 }
 
 .timeline {
@@ -177,7 +179,7 @@ body {
 }
 
 .bg-86 {
-  background: url("./../img/sebas_grande.JPG");
+  background: url("./../img/sebas_jugando.JPG");
   background-size:cover;
 }
 

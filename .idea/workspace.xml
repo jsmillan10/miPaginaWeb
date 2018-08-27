@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469d5f7e-f2c2-4088-a357-312fc4c327db" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/sebas_creciendo.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sebas_jugando.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/skills.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/time_line.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/time_line.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="250" column="37" lean-forward="true" selection-start-line="250" selection-start-column="37" selection-end-line="250" selection-end-column="37" />
+            <state relative-caret-position="-3263">
+              <caret line="203" column="40" selection-start-line="203" selection-start-column="40" selection-end-line="203" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -35,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -43,14 +41,24 @@
       <file leaf-file-name="time_line.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/time_line.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+            <state relative-caret-position="-6">
+              <caret line="183" column="1" lean-forward="true" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monserrate.jpeg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sebas_jugando.JPG" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/img/sebas_jugando.JPG">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="monserrate.jpeg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/img/monserrate.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="monserrate2.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/img/monserrate2.jpeg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -73,6 +81,7 @@
       <find>mus</find>
       <find>h5</find>
       <find>timeline ul li</find>
+      <find>title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,8 +99,8 @@
         <option value="$PROJECT_DIR$/src/css/skills.css" />
         <option value="$PROJECT_DIR$/src/css/main.css" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/css/time_line.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/css/time_line.css" />
       </list>
     </option>
   </component>
@@ -209,12 +218,12 @@
       <workItem from="1534977928623" duration="10700000" />
       <workItem from="1535217049335" duration="218000" />
       <workItem from="1535217885833" duration="54741000" />
-      <workItem from="1535329586107" duration="6775000" />
+      <workItem from="1535329586107" duration="16647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117717000" />
+    <option name="totallyTimeSpent" value="127589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -270,20 +279,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/hover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35564">
-          <caret line="2092" column="1" selection-start-line="2092" selection-start-column="1" selection-end-line="2092" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -495,26 +490,32 @@
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/monserrate2.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/monserrate.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/sebas_jugando.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/time_line.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="-6">
+          <caret line="183" column="1" lean-forward="true" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="250" column="37" lean-forward="true" selection-start-line="250" selection-start-column="37" selection-end-line="250" selection-end-column="37" />
+        <state relative-caret-position="-3263">
+          <caret line="203" column="40" selection-start-line="203" selection-start-column="40" selection-end-line="203" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/monserrate.jpeg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
