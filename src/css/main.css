@@ -177,15 +177,23 @@ a .nav-item {
 
 #contenedor_skills{
   padding: 0px;
+  height: 700px;
 }
 
 #jumbo_skills{
-  padding: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
   background-color: #3d72b4;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #subtitulo_skills{
   color: white;
+}
+
+#separador{
+  height: 50px;
 }
 
 #contenedor_projects{

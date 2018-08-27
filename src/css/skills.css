@@ -1,3 +1,9 @@
+.subtitulos_skills{
+  color: white;
+  padding: 25px;
+  font-family: 'Nunito', sans-serif;
+}
+
 .progress{
   width: 150px;
   height: 150px;
